@@ -196,7 +196,7 @@ section address {
 #about ul li:first-child + li + li {
 	background: transparent url('images/value.svg') no-repeat 0 0;
 	background-size: 100px 80px;
-	back
+	
 }
 
 #about ul li h2 {
@@ -227,7 +227,6 @@ footer {
 
 #article ul {
 	list-style: none;
-	margin 0px 0px;
 	padding: 0px;
 }
 
@@ -241,7 +240,6 @@ footer {
 	text-align: middle;
 	margin: 15px 15px;
 	list-style: none;
-	margin 0 0;
 }
 
 #mural h2 {
