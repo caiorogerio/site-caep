@@ -309,7 +309,7 @@ main > section {
 }
 
 #comunication p {
-	
+	line-height: 100%;
 	font-weight: 500;
 	font-size: 28px;
 	text-align: left;
@@ -359,9 +359,13 @@ main > section {
 	min-height: 300px;
 }
 
-#comunication form input[type='submit'] {
+#comunication form .buttons {
+	text-align: right;
+}
+
+#comunication form .buttons input[type='submit'] {
+	display: inline-block;
 	width: 200px;
-	float: right;
 	cursor: pointer;
 }
 
