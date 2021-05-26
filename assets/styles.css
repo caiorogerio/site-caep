@@ -134,6 +134,18 @@ section address {
 	font-weight: 500;
 	font-size: 26px;
 	text-align: justify;
+	line-height: 35px;
+}
+
+section p img.image-text {
+	max-width: 400px;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+
+section p img.image-text.image-text-left {
+	float: left;
+	margin-right: 20px;
 }
 
 #banner {
@@ -200,6 +212,11 @@ section address {
 #about ul li p {
 	font-weight: bold;
 	font-size: 18px;
+	line-height: 25px;
+}
+
+#space img {
+	width: 100%;
 }
 
 footer {
