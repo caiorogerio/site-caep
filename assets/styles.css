@@ -210,6 +210,17 @@ footer {
 	padding: 30px;
 }
 
+main {
+	overflow: visible;
+}
+
+main > section {
+	padding-left: 0;
+	padding-right: 0;
+	width: 100%;
+	overflow: visible;
+}
+
 #article {
 	padding-left: 0;
 	padding-right: 0;
@@ -298,7 +309,7 @@ footer {
 	content: ":";
 }
 
-#comunication form input[type='text'],
+#comunication form input,
 #comunication form textarea {
 	display: block;
 	width: calc(100% - 40px);
@@ -315,19 +326,24 @@ footer {
 	outline: none;
 	box-shadow: 0 0 3pt 2pt orangered;
 }
+
+
+#comunication form input::placeholder,
+#comunication form textarea::placeholder {
+	color: #ccc;
+}
+
+#comunication form input:invalid {
+	box-shadow: 0 0 3pt 2pt red;
+	color: red;
+}
+
 #comunication form textarea {
 	min-height: 300px;
 }
 
 #comunication form input[type='submit'] {
-	display: block;
 	width: 200px;
-	background: #fff;
-	padding: 10px 20px;
-	border-radius: 10px;
-	border: 0;
-	font: inherit;
-	color: #33a038;
 	float: right;
 	cursor: pointer;
 }
