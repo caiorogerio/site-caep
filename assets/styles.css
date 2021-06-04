@@ -104,7 +104,7 @@ header h1 a abbr {
 
 header nav {
 	float: right;
-	margin: 35px 0;
+	margin: 25px 0;
     list-style: none;
 }
 
@@ -114,6 +114,14 @@ header nav li {
 	font-weight: normal;
 	font-size: 24px;
 	margin: 0 10px;
+}
+
+header nav li.login a {
+    display: inline-block;
+	background: #33a038;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 5px;
 }
 
 section {

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CAEP</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../assets/styles.css">
+        <link rel="stylesheet" href="admin.css">
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="scripts.js"></script>
+    </head>
+    <body class="green">
+        <header class="full-width">
+            <div>
+                <h1><a href="."><abbr title="Centro Acadêmico de Engenharia de Produção">CAEP</abbr></a></h1>
+                <nav>
+                    <li><a href="artigos.html">Artigos</a></li>
+                    <li><a href="mensagens.html">Mensagens</a></li>
+                    <li class="login"><a href=".">Logout</a></li>
+                </nav>
+            </div>
+        </header>
+        
+        <div id="flex-container">
+            <aside>
+                <form method="POST" action="">
+                    <p>
+                        <label for="form-nome">Nome</label>
+                        <input type="text" name="nome" id="form-nome">
+                    </p>
+                    <p>
+                        <label for="form-whatsapp">WhatsApp</label>
+                        <input type="text" name="whatsapp" id="form-whatsapp">
+                    </p>
+                    <p>
+                        <label for="form-email">E-mail</label>
+                        <input type="email" name="email" id="form-email">
+                    </p>
+                    <p>
+                        <label for="form-mensagem">Mensagem</label>
+                        <textarea name="mensagem" id="form-mensagem"></textarea>
+                    </p>
+                    <p>
+                        <input type="submit" value="Salvar">
+                    </p>
+                    <p>
+                        <input type="reset" value="Cancelar">
+                    </p>
+                    <p>
+                        <input type="reset" value="Apagar">
+                    </p>
+                </form>
+            </aside>
+
+            <main>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>WhatsApp</th>
+                            <th>E-mail</th>
+                            <th>Mensagem</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Coelho do CAEP</td>
+                            <td>11912345678</td>
+                            <td>coelho@caep.com.br</td>
+                            <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac bibendum tellus, quis consequat lorem. Vestibulum at nibh leo. Morbi sollicitudin dui at enim convallis, non bibendum tortor dictum. Sed vel sapien odio. Cras sed congue diam. Nulla malesuada a sem eget placerat. Cras diam tortor, aliquam sed enim in, dapibus molestie dui.</td>
+                        </tr>
+                        <tr>
+                            <td>Coelho do CAEP</td>
+                            <td>11912345678</td>
+                            <td>coelho@caep.com.br</td>
+                            <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac bibendum tellus, quis consequat lorem. Vestibulum at nibh leo. Morbi sollicitudin dui at enim convallis, non bibendum tortor dictum. Sed vel sapien odio. Cras sed congue diam. Nulla malesuada a sem eget placerat. Cras diam tortor, aliquam sed enim in, dapibus molestie dui.</td>
+                        </tr>
+                        <tr>
+                            <td>Coelho do CAEP</td>
+                            <td>11912345678</td>
+                            <td>coelho@caep.com.br</td>
+                            <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac bibendum tellus, quis consequat lorem. Vestibulum at nibh leo. Morbi sollicitudin dui at enim convallis, non bibendum tortor dictum. Sed vel sapien odio. Cras sed congue diam. Nulla malesuada a sem eget placerat. Cras diam tortor, aliquam sed enim in, dapibus molestie dui.</td>
+                        </tr>
+                        <tr>
+                            <td>Coelho do CAEP</td>
+                            <td>11912345678</td>
+                            <td>coelho@caep.com.br</td>
+                            <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac bibendum tellus, quis consequat lorem. Vestibulum at nibh leo. Morbi sollicitudin dui at enim convallis, non bibendum tortor dictum. Sed vel sapien odio. Cras sed congue diam. Nulla malesuada a sem eget placerat. Cras diam tortor, aliquam sed enim in, dapibus molestie dui.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </main>
+        </div>
+
+        <footer class="full-width">
+            <p>Copyright © 2021 CAEP - Proudly developped at USP</p>
+        </footer>
+    </body>
+</html>

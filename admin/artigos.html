@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CAEP</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../assets/styles.css">
+        <link rel="stylesheet" href="admin.css">
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="scripts.js"></script>
+    </head>
+    <body class="green">
+        <header class="full-width">
+            <div>
+                <h1><a href="."><abbr title="Centro Acadêmico de Engenharia de Produção">CAEP</abbr></a></h1>
+                <nav>
+                    <li><a href="artigos.html">Artigos</a></li>
+                    <li><a href="mensagens.html">Mensagens</a></li>
+                    <li class="login"><a href=".">Logout</a></li>
+                </nav>
+            </div>
+        </header>
+        
+        <div id="flex-container">
+            <aside>
+                <form method="POST" action="">
+                    <p>
+                        <label for="form-titulo">Título</label>
+                        <input type="text" name="titulo" id="form-titulo">
+                    </p>
+                    <p>
+                        <label for="form-descricao">Descrição</label>
+                        <input type="text" name="descricao" id="form-descricao">
+                    </p>
+                    <p>
+                        <label for="form-quantidade">Quantidade</label>
+                        <input type="number" min="0" max="1000" name="quantidade" id="form-quantidade">
+                    </p>
+                    <p>
+                        <label for="form-preco">Preço</label>
+                        <input type="text" name="preco" id="form-preco">
+                    </p>
+                    <p>
+                        <input type="submit" value="Salvar">
+                    </p>
+                    <p>
+                        <input type="reset" value="Cancelar">
+                    </p>
+                    <p>
+                        <input type="reset" value="Apagar">
+                    </p>
+                </form>
+            </aside>
+
+            <main>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Título</th>
+                            <th>Descrição</th>
+                            <th>Quantidade</th>
+                            <th>Preço</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Coelho</td>
+                            <td>Coelho do CAEP</td>
+                            <td>10</td>
+                            <td>R$80,00</td>
+                        </tr>
+                        <tr>
+                            <td>Camiseta</td>
+                            <td>Camiseta do CAEP</td>
+                            <td>30</td>
+                            <td>R$20,00</td>
+                        </tr>
+                        <tr>
+                            <td>Caneta</td>
+                            <td>Caneta do CAEP</td>
+                            <td>500</td>
+                            <td>R$5,00</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </main>
+        </div>
+
+        <footer class="full-width">
+            <p>Copyright © 2021 CAEP - Proudly developped at USP</p>
+        </footer>
+    </body>
+</html>

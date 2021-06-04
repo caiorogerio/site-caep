@@ -1,0 +1,131 @@
+form p {
+    margin: 10px 0;
+	line-height: 100%;
+	font-weight: 500;
+	font-size: 28px;
+	text-align: left;
+	color: #FFFFFF;
+}
+
+form label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+form label::after {
+	display: inline-block;
+	content: ":";
+}
+
+form input,
+form textarea {
+	display: block;
+	width: calc(100% - 40px);
+	background: #fff;
+	padding: 10px 20px;
+	border-radius: 10px;
+	border: 0;
+	font: inherit;
+	color: #33a038;
+}
+
+form input:focus,
+form textarea:focus {
+	outline: none;
+	box-shadow: 0 0 3pt 2pt orangered;
+}
+
+
+form input::placeholder,
+form textarea::placeholder {
+	color: #ccc;
+}
+
+form input:invalid {
+	box-shadow: 0 0 3pt 2pt red;
+	color: red;
+}
+
+form textarea {
+	min-height: 300px;
+}
+
+form .buttons {
+	text-align: right;
+}
+
+form .buttons input[type='submit'] {
+	display: inline-block;
+	width: 200px;
+	cursor: pointer;
+}
+
+
+#login {
+    max-width: 500px;
+    padding: 40px 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#nova-senha {
+    padding: 200px 0;
+}
+
+
+#flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 30px auto;
+}
+
+#flex-container aside {
+    min-width: 300px;
+    margin: 0 20px 0 0;
+    align-self: flex-start;
+}
+
+#flex-container aside form input[type=reset] {
+    display:none;
+}
+
+#flex-container aside form.edit input[type=reset] {
+    display:inline-block;
+}
+
+#flex-container aside form input[type=reset][value='Cancelar'] {
+    background: #ccc;
+}
+
+#flex-container aside form input[type=reset][value='Apagar'] {
+    background: red;
+    color: #fff;
+}
+
+#flex-container main {
+    align-self: flex-start;
+    flex-grow: 1;
+    margin: 0;
+}
+
+#flex-container main table {
+    width: 100%;
+    color: #fff;
+}
+
+#flex-container main table thead th {
+    background: green;
+    padding: 20px;
+    font-weight: bold;
+}
+
+#flex-container main table tbody td {
+    padding: 20px;
+    cursor: pointer;
+}
+
+#flex-container main table tbody tr:nth-child(2n) td {
+    background: rgba(255,255,255,0.1)
+}
